@@ -1,7 +1,7 @@
 {
-  "name": "@wopjs/template",
+  "name": "@wopjs/time",
   "version": "0.1.0",
-  "description": "Collection of common utilities.",
+  "description": "Collection of time utilities.",
   "type": "module",
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -15,7 +15,7 @@
     "build": "tsup src/index.ts --clean --format esm --target esnext --dts"
   },
   "keywords": [
-    "template"
+    "time"
   ],
   "maintainers": [
     {

@@ -1,13 +1,13 @@
-# @wopjs/template
+# @wopjs/time
 
-[![Docs](https://www.paka.dev/badges/v0/cute.svg)](https://www.paka.dev/npm/@wopjs/template)
+[![Docs](https://www.paka.dev/badges/v0/cute.svg)](https://www.paka.dev/npm/@wopjs/time)
 
-Collection of common utilities.
+Collection of time utilities.
 
 ## Install
 
 ```
-npm add @wopjs/template
+npm add @wopjs/time
 ```
 
 ## License
