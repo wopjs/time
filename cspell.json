@@ -1,12 +1,14 @@
 {
   "language": "en",
   "words": [
+    "abortable",
     "coverallsapp",
     "CRIMX",
     "hyrious",
     "lcov",
     "pnpm",
     "preinstall",
+    "treeshake",
     "tsup",
     "typedoc",
     "Vals",

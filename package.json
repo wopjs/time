@@ -1,6 +1,6 @@
 {
   "name": "@wopjs/time",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Collection of time utilities.",
   "type": "module",
   "exports": "./dist/index.js",
@@ -12,7 +12,7 @@
   "scripts": {
     "prepublish": "pnpm run build",
     "lint": "eslint --ext .ts,.tsx . && prettier --check .",
-    "build": "tsup src/index.ts --clean --format esm --target esnext --dts"
+    "build": "tsup"
   },
   "keywords": [
     "time"
@@ -31,6 +31,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
+    "@wopjs/disposable": "^0.0.3",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.7.1",
