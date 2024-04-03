@@ -5,6 +5,6 @@ export const interval = (
   handler: () => void,
   timeout: number
 ): (() => void) => {
-  const ticket = setInterval(() => handler, timeout);
+  const ticket = setInterval(handler, timeout);
   return () => clearInterval(ticket);
 };
